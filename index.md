@@ -1,46 +1,24 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Playing with jekyll
+tagline: Lets see how it goes!
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Came across [Dave Rupert's blog](http://daverupert.com) recently, and the blog looked so simple and amazingly fast that made me try the jekyll framework.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+I referred the following two links for the whole blog setup:
+[Jekyll](http://jekyllrb.com/)
+[Jekyll Bootstrap](http://jekyllbootstrap.com/)
 
-## Update Author Attributes
+The setup was pretty simple and didn't take much time.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+Basic files you will have to edit after the whole setup is done are going to be is 'index.md' which reflects what appears on your blog's homepage.
+All your posts gets stored in the directory - '_posts'
+All the pages gets stored in the home directory itself but you can have nested pages by using a syntax like this:
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+$ rake page name="pages/about.md"
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+The above details would help you setup your simple blog, if you need any other help just leave a comment or tweet and I would love to help you out with your blog setup.
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+Enjoy using Jekyll!
