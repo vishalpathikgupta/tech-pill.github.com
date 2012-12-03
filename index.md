@@ -7,10 +7,7 @@ tagline: Lets see how it goes!
 
 Came across [Dave Rupert's blog](http://daverupert.com) recently, and the blog looked so simple and amazingly fast that made me try the jekyll framework.
 
-I referred the following two links for the whole blog setup:
-	
-[Jekyll](http://jekyllrb.com/) and
-[Jekyll Bootstrap](http://jekyllbootstrap.com/)
+I referred the following two links for the whole blog setup: [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/)
 
 The setup was pretty simple and didn't take much time.
 
